@@ -16,39 +16,3 @@ This repository contains Python implementations of generative network models use
 * **Graph Processing:** NetworkX (or graph-tool depending on implementation)
 * **Mathematical Operations:** NumPy
 
-## 📋 Repository Structure
-
-Based on the project architecture:
-* `PAM.py` / `PAM2.py` / `PAM_grow.py` — Core variations of the Preferential Attachment Mechanism.
-* `Uniform_Copy_Model.py` / `CopyUAM_optimize.py` — Structural cloning and edge copying simulations.
-* `UAM_building.py` — Pipeline to generate structural tree topologies.
-* `output_graph.graphml` — Example generated dataset output.
-
-## ⚡ Quick Start
-
-### Prerequisites
-Make sure you have the required libraries installed:
-```bash
-pip install networkx numpy
-```
-
-### Running a Simulation
-To generate a network using the Uniform Copy Model, run:
-```bash
-python Uniform_Copy_Model.py
-```
-
----
-
-## 🛠️ How to Add This README via VS Code
-
-1. Inside VS Code, click the **New File** icon and name it `README.md`.
-2. **Copy and paste** the markdown content above into that file and save it (`Ctrl + S`).
-3. Open your VS Code Source Control panel (`Ctrl + Shift + G`).
-4. Click the **`+`** icon next to `README.md` to stage it.
-5. Type `Add README documentation` in the message box.
-6. Click **Commit**, then click **Sync Changes** (or **Push**).
-
-***
-
-Let me know if you want to tweak any of the file descriptions, or share your **next resume project** whenever you are ready!
